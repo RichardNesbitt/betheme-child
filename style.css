@@ -8,7 +8,36 @@ Template: betheme
 Version: 1.6.2
 */
 
+/* Accessibility Fixes */
+
+/* style-responsive.php AND css/responsive-off.css */
+#Header_creative.dropdown,
+/* css/shortcodes.css */
+hr,
+select,textarea,
+a.mfn-link,
+/* css/base.css */
+a,a:visited,a:focus,
+.mfp-wrap,
+button.mfp-close,button.mfp-arrow,
+.slick-list:focus,
+.slick-slide,
+/* assets/ui/jquery.ui.all.css */
+.ui-helper-reset,
+.ui-widget:active,
+/* muffin-options/css/options.css */
+#mfn-wrapper *,
+.mfn-slider-field .uislider .ui-slider-handle,
+/* functions/admin/assets/plugins/magnific-popup/magnific-popup.css */
+.mfp-wrap,
+button.mfp-close,button.mfp-arrow {
+    outline: auto;
+}
+
+/* End A11y Fixes */
+
 /* FIX FOR PROJECTHUDDLE PLUGIN */
 body.mobile-side-slide, body.admin-bar {
     position: static;
 }
+/* End PH Fixes */
