@@ -1,0 +1,7 @@
+CHANGELOG
+
+06-30-2020
+Initial Commit with Vanilla Child Theme
+
+Added Fix for ProjectHuddle comment bubble positioning.
+There was a glitch caused by CSS applied to the admin header bar.
