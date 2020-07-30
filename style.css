@@ -41,3 +41,9 @@ body.mobile-side-slide, body.admin-bar {
     position: static;
 }
 /* End PH Fixes */
+
+/* Overall Annoying Fixes */
+/* no min-height for #Header */
+body:not(.template-slider) #Header {
+    min-height: 0;
+}
