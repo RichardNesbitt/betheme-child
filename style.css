@@ -45,5 +45,5 @@ body.mobile-side-slide, body.admin-bar {
 /* Overall Annoying Fixes */
 /* no min-height for #Header */
 body:not(.template-slider) #Header {
-    min-height: 0 !important;
+    min-height: 0;
 }
